@@ -57,7 +57,7 @@
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$216000$hfleHvcGhaer$edSYvzsy+dn3QkOSchcXb0ljshAeWY915p9GafGW8Us=",
+    "password": "pbkdf2_sha256$216000$hfleHvcGhaer$edSYvzsy+dn3QkOSchcXb0ljshAeWY915p9GafGW8Us=", #admin
     "last_login": "2021-02-25T10:13:27.721Z",
     "is_superuser": true,
     "username": "aijan",
