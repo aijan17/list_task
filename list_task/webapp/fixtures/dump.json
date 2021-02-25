@@ -1,0 +1,74 @@
+[
+{
+  "model": "webapp.task",
+  "pk": 9,
+  "fields": {
+    "description": "yhtyj",
+    "status": "new",
+    "pub_date": "2021-02-24"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 10,
+  "fields": {
+    "description": "5htyhtyh",
+    "status": "in_progress",
+    "pub_date": "2021-02-23"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 12,
+  "fields": {
+    "description": "fdff",
+    "status": "new",
+    "pub_date": "2021-02-23"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 13,
+  "fields": {
+    "description": "jtryjuym",
+    "status": "new",
+    "pub_date": null
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 14,
+  "fields": {
+    "description": "cle",
+    "status": "new",
+    "pub_date": null
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 15,
+  "fields": {
+    "description": "pick up the child from kindergarten",
+    "status": "new",
+    "pub_date": null
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$hfleHvcGhaer$edSYvzsy+dn3QkOSchcXb0ljshAeWY915p9GafGW8Us=",
+    "last_login": "2021-02-25T10:13:27.721Z",
+    "is_superuser": true,
+    "username": "aijan",
+    "first_name": "",
+    "last_name": "",
+    "email": "aijan@admin.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-02-25T10:13:12.642Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
