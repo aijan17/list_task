@@ -6,8 +6,9 @@
             {% csrf_token %}
             <label>Description:</label><br/>
             <input type="text" name="description"/><br/>
-            <label >Text for detailed:</label><br>
-            <input type="text" name="text_for_detailed"/><br/>
+            <label for="text_for_detailed" name="text_for_detailed">Text for detailed:</label><br>
+
+           <textarea id="text_for_detailed" name="text_for_detailed" rows="4" cols="50"> </textarea><br/>
             <label>Status:</label><br/>
             <select name="status">
                 {% for i, j in status %}
