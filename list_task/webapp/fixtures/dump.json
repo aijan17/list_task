@@ -1,54 +1,60 @@
 [
 {
   "model": "webapp.task",
-  "pk": 9,
+  "pk": 20,
   "fields": {
-    "description": "yhtyj",
+    "description": "to see a movie",
+    "text_for_detailed": "harry potter",
     "status": "new",
-    "pub_date": "2021-02-24"
+    "pub_date": "2021-02-25"
   }
 },
 {
   "model": "webapp.task",
-  "pk": 10,
+  "pk": 21,
   "fields": {
-    "description": "5htyhtyh",
+    "description": "walk the dog",
+    "text_for_detailed": "corgi",
     "status": "in_progress",
-    "pub_date": "2021-02-23"
+    "pub_date": "2021-03-01"
   }
 },
 {
   "model": "webapp.task",
-  "pk": 12,
+  "pk": 27,
   "fields": {
-    "description": "fdff",
-    "status": "new",
-    "pub_date": "2021-02-23"
-  }
-},
-{
-  "model": "webapp.task",
-  "pk": 13,
-  "fields": {
-    "description": "jtryjuym",
+    "description": "sleep",
+    "text_for_detailed": "in 8 ",
     "status": "new",
     "pub_date": null
   }
 },
 {
   "model": "webapp.task",
-  "pk": 14,
+  "pk": 29,
   "fields": {
-    "description": "cle",
+    "description": "read the book",
+    "text_for_detailed": "because makkalow - those who are on the thorns",
+    "status": "done",
+    "pub_date": "2021-02-28"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 30,
+  "fields": {
+    "description": "make pizza",
+    "text_for_detailed": "pepperoni ",
     "status": "new",
     "pub_date": null
   }
 },
 {
   "model": "webapp.task",
-  "pk": 15,
+  "pk": 31,
   "fields": {
-    "description": "pick up the child from kindergarten",
+    "description": "drink",
+    "text_for_detailed": "juice",
     "status": "new",
     "pub_date": null
   }
@@ -57,8 +63,8 @@
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$216000$hfleHvcGhaer$edSYvzsy+dn3QkOSchcXb0ljshAeWY915p9GafGW8Us=", #admin
-    "last_login": "2021-02-25T10:13:27.721Z",
+    "password": "pbkdf2_sha256$216000$hfleHvcGhaer$edSYvzsy+dn3QkOSchcXb0ljshAeWY915p9GafGW8Us=",
+    "last_login": "2021-03-01T09:57:23.289Z",
     "is_superuser": true,
     "username": "aijan",
     "first_name": "",
