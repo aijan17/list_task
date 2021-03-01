@@ -4,8 +4,8 @@ from webapp.models import Task
 admin.site.register(Task)
 
 
-class ArticleAdmin(admin.ModelAdmin):
-    list_display = ['id', 'description', 'status', 'pub_date']
+class TaskAdmin(admin.ModelAdmin):
+    list_display = ['id', 'description','text_for_detailed', 'status', 'pub_date']
     list_filter = ['description']
     search_fields = ['description', 'status']
     fields = ['description', 'status', 'pub_date']
