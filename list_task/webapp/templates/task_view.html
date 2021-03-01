@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">
+          Задача {{ task.id }}
+      </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ task.description }}</li>
+            <li class="list-group-item">{{ task.text_for_detailed }}</li>
+            <li class="list-group-item">{{ task.get_status_display }}</li>
+            <li class="list-group-item">{{ task.pub_date }}</li>
+        </ul>
+    </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li> <button style = "text-decoration-line:none;" type="button" class="btn btn-outline-info"><a href="{%  url 'list-view' %}">Go to home page </a></button></li>
+                {% block menu %}{% endblock %}
+            </ul>
+        </nav>
+
+{% endblock content %}

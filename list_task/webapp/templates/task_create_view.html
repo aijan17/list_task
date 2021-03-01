@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <h1>Create Task</h1>
+    <form action="{% url 'task-add' %}" method="post" >
+            {% csrf_token %}
+            <label>Description:</label><br/>
+            <input type="text" name="description"/><br/>
+            <label >Text for detailed:</label><br>
+            <input type="text" name="text_for_detailed"/><br/>
+            <label>Status:</label><br/>
+            <select name="status">
+                {% for i, j in status %}
+                    <option value="{{ i }}">{{ j }}</option>
+                {% endfor %}
+            </select>
+            <label>Data:</label><br/>
+            <input type="date" name="pub_date"/><br/>
+            <br/>
+            <input type="submit" value="Send"/>
+    </form>
+    <nav class="navbar">
+        <ul class="menu">
+            <li> <button style = "text-decoration-line:none;" type="button" class="btn btn-outline-info"><a href="{%  url 'list-view' %}">Go to home page </a></button></li>
+            {% block menu %}{% endblock %}
+        </ul>
+    </nav>
+{% endblock content %}
