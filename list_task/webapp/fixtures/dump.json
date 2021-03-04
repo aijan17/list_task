@@ -1,16 +1,6 @@
 [
 {
   "model": "webapp.task",
-  "pk": 20,
-  "fields": {
-    "description": "to see a movie",
-    "text_for_detailed": "harry potter",
-    "status": "new",
-    "pub_date": "2021-02-25"
-  }
-},
-{
-  "model": "webapp.task",
   "pk": 21,
   "fields": {
     "description": "walk the dog",
@@ -51,12 +41,42 @@
 },
 {
   "model": "webapp.task",
-  "pk": 31,
+  "pk": 36,
   "fields": {
-    "description": "drink",
-    "text_for_detailed": "juice",
-    "status": "new",
-    "pub_date": null
+    "description": "helloi",
+    "text_for_detailed": "sosssss",
+    "status": "in_progress",
+    "pub_date": "2021-03-02"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 37,
+  "fields": {
+    "description": "freee",
+    "text_for_detailed": "nhskdhshchdscs",
+    "status": "done",
+    "pub_date": "2021-02-28"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 38,
+  "fields": {
+    "description": "vasya",
+    "text_for_detailed": "pupkin",
+    "status": "done",
+    "pub_date": "2021-02-28"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 40,
+  "fields": {
+    "description": "ksdnsdcsc",
+    "text_for_detailed": "dcxdcvvd",
+    "status": "done",
+    "pub_date": "2021-03-10"
   }
 },
 {
